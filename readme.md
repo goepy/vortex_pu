@@ -1,11 +1,11 @@
-#方針
+# 方針
 
 - 片方向
 - DB有り
 - lambda
 
 
-#テーマ
+# テーマ
 
 - リマインダー
 → eTeamsからとってこれるか？（ストレッチ）→無理ぽ
@@ -17,11 +17,11 @@
 
 
 
-#作るもの
+# 作るもの
 リマインダーをやる
 
-##必要な機能
-###django Flamework
+## 必要な機能
+### django Flamework
 - 管理機能
     - リマインド登録機能
     - リマインド削除機能
@@ -31,7 +31,7 @@
 - DB
 - CloudWatch管理機能（CloudWatchEventsHandler）（BOTO3）
 
-###Python
+### Python
 - リマインド投稿機能
     - 投稿内容作成機能
     - Tocaro投稿機能（金井さんのフレームワークを使いたい）
