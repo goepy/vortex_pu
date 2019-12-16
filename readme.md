@@ -53,11 +53,11 @@ publicの為個人名は割愛
     - USER登録機能
     - USER削除機能
 
-## sirayogi
-###　boto3周り
+## sirayogi:
+### boto3周り
 - CloudWatch管理機能（CloudWatchEventsHandler）
 
-## K
+## K:
 ### 投稿機能
 - リマインド投稿機能
     - 投稿内容作成機能
