@@ -36,3 +36,5 @@
     - 投稿内容作成機能
     - Tocaro投稿機能（金井さんのフレームワークを使いたい）
     - CloudWatch管理機能（CloudWatchEventsHandler）（BOTO3）
+
+変更
