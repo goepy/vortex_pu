@@ -36,13 +36,32 @@ publicの為個人名は割愛
     - USER登録機能
     - USER削除機能
 - DB
-- CloudWatch管理機能（CloudWatchEventsHandler）（BOTO3）
+- CloudWatch管理機能（CloudWatchEventsHandler）（BOTO3)
 
 ### Python
 - リマインド投稿機能
     - 投稿内容作成機能
     - Tocaro投稿機能（JinKanaiのフレームワーク(<https://github.com/V012TEX/aws-ops-automata/tree/feature/init/billingNotify/functions>)を使いたい）
     - CloudWatch管理機能（CloudWatchEventsHandler）（BOTO3）
+
+# 役割分担
+## goepy：
+### 管理機能
+    - リマインド登録機能
+    - リマインド削除機能
+    - リマインド照会機能
+    - USER登録機能
+    - USER削除機能
+
+## sirayogi
+###　boto3周り
+- CloudWatch管理機能（CloudWatchEventsHandler）
+
+## K
+### 投稿機能
+- リマインド投稿機能
+    - 投稿内容作成機能
+    - Tocaro投稿機能
 
 # 作成方針
 ## 開発環境
