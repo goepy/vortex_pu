@@ -41,7 +41,7 @@ publicの為個人名は割愛
 ### Python
 - リマインド投稿機能
     - 投稿内容作成機能
-    - Tocaro投稿機能（JinKanaiのフレームワーク(<https://github.com/V012TEX/aws-ops-automata/tree/feature/init/billingNotify/functions>)を使いたい）
+    - Tocaro投稿機能（JinKanaiのフレームワーク(<https://github.com/JinKanai/tocaro-bot-framework.git>)を使いたい）
     - CloudWatch管理機能（CloudWatchEventsHandler）（BOTO3）
 
 # 役割分担
