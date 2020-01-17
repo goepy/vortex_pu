@@ -40,7 +40,7 @@ class CloudWatchEventsAccessor:
                 {
                     'Id': 'fy19pu-tocaropost',
                     'Arn': 'arn:aws:lambda:ap-northeast-1:714257649477:function:fy19pu-tocaropost',
-                    'Input': json.dumps({"id": id_})
+                    'Input': json.dumps({"id": id_, "name": rem_name})
                 },
             ]
         )
