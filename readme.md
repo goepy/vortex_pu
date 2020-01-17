@@ -8,7 +8,7 @@ Pythonコンテストにて「完成」した作品を出品する。
 publicの為個人名は割愛
 - リーダー:goepy
 - サブリーダー:sirayogi
-- メンバー:
+- メンバー:YKashimura
 
 # 作るもの
 ## テーマ
@@ -46,17 +46,17 @@ publicの為個人名は割愛
 
 # 役割分担
 ## goepy：
-### 投稿機能
+投稿機能
 - リマインド投稿機能
     - 投稿内容作成機能
     - Tocaro投稿機能
 
 ## sirayogi:
-### boto3周り
+boto3周り
 - CloudWatch管理機能（CloudWatchEventsHandler）
 
 ## YKashimura:
-### 管理機能(django)
+管理機能(django)
     - リマインド登録機能
     - リマインド削除機能
     - リマインド照会機能
