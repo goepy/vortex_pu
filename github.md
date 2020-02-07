@@ -21,4 +21,4 @@ https://techacademy.jp/magazine/6235
 # 進捗状況の管理
 goepy/vortex_puのProjectsタブで進捗管理できるように
 ## Python_Contest##
-作成。（今井君が）
+作成。
