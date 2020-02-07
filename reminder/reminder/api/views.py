@@ -24,3 +24,4 @@ class TableViewSet(viewsets.ModelViewSet):
     class META:
         lookup_field = 'uuid'
 
+
