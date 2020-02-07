@@ -8,8 +8,8 @@ class CloudWatchEventsAccessor:
     CloudWatchへのアクセスを簡易化するクラス
     """
     def __init__(self):
-        self.client = boto3.client("events")
-        self.lambda_client = boto3.client("lambda")
+        self.client = boto3.client("events", region_name="ap-northeast-1")
+        self.lambda_client = boto3.client("lambda", region_name="ap-northeast-1")
     
     def set_event(self, date_: datetime=datetime.now()+timedelta(minutes=5), id_: int=0):
         """

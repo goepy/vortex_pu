@@ -1,18 +1,19 @@
+import os
 import json
 from tocaro_handler import TocaroHandler
 from cloudwatchevents_accessor import CloudWatchEventsAccessor
 import urllib.request
 
 def lambda_handler(event, context):
-    url = '' + event["id"] + '/'
     
+    url = os.environ["DB_URL"] + event["id"] + '/'
     req = urllib.request.Request(url)
+    
     try:
         with urllib.request.urlopen(req) as res:
             body = json.load(res)
     except urllib.error.HTTPError as err:
         print(err.code)
-    except urllib.error.URLError as err:
         print(err.reason)
     
     # tocaro投稿処理
@@ -40,7 +41,6 @@ def lambda_handler(event, context):
     b.delete_event(event["name"])
     
     return r
-
 
 
 if __name__ == '__main__':
