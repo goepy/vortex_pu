@@ -120,6 +120,6 @@ if __name__ == '__main__':
 #    print(b.set_event(id_=3))
 
 #   イベント削除テスト
-    print(b.delete_event("fy19pu-reminder-202001170804"))
+#    print(b.delete_event("fy19pu-reminder-202001170804"))
     
 #    print(b.list_rules(NamePrefix="fy19pu"))
