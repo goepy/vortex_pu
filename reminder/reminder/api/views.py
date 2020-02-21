@@ -36,13 +36,14 @@ class TableViewSet(viewsets.ModelViewSet):
     
     def perform_destroy(self, instance):
         b = CloudWatchEventsAccessor()
-#        try:
-#        delete_event_name = "fy19pu-reminder-" + (datetime.strptime(instance.date, "%Y-%m-%dT%H:%M:%S+09:00") - timedelta(hours=9)).strftime("%Y%m%d%H%M")
+        
         delete_event_name = "fy19pu-reminder-" + instance.date.strftime("%Y%m%d%H%M")
         print("debug: delete event name:", delete_event_name)
-        b.delete_event(delete_event_name)
-#        except:
-#            print("debug: delete events is noting.")
+        try:
+            b.delete_event(delete_event_name)
+        except:
+            print("debug: delete events is noting.")
+
         print("debug: perform_destroy")
 
     class META:

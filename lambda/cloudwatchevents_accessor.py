@@ -67,6 +67,7 @@ class CloudWatchEventsAccessor:
         """
         self.remove_targets(Rule=name, Ids=["fy19pu-tocaropost",])
         self.delete_rule(Name=name)
+        # lambda_permissionの削除処理を未作成。デモでは実装しない。
         return 0
         
     
